@@ -1,0 +1,1278 @@
+/* CSS for Navigation bar */
+body, html { 
+    overflow-x:hidden; 
+}
+body{
+   
+    padding: 0;
+    margin: 0;
+}
+.navbar li a{
+    font-family: 'Lobster', cursive;
+    font-size: 17px;
+    color: rgb(253, 236, 255)!important;
+    margin-left: 20px;
+    margin-right: 10px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+.navbar-toggler{
+   
+    color: white!important;
+    border: rgb(252, 221, 221) solid!important;
+    border-radius: 20%;
+}
+.navbar-toggler-icon{
+    color: white!important;
+    background-color:rgb(255, 249, 250,0.5)!important;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.bg-dark {
+    background-color: transparent !important;
+}
+.bg-dark.scrolled{
+    background: rgba(240, 20, 57, 0.3) !important;
+}
+.navbar-nav >li:hover >a{ 
+    color: rgb(255, 61, 110) !important;
+}
+.dropdown-menu{
+    background: rgb(198, 23, 214,0.1) !important;
+}
+.dropdown-menu:hover{
+    background: rgb(198, 23, 214,0) !important;
+    
+}
+.dropdown-item:hover{
+    color: rgb(255, 61, 110) !important;
+    background-color: rgb(198, 23, 214,0) !important;
+}
+.navbar-brand img{
+    height: 40px;
+    margin-top: -7px;
+    width: 180px;
+    
+    margin-left: 5px;
+}
+@media only screen and (max-width: 480px){
+    .navbar-brand img{
+        height: 40px;
+        margin-top: 5px;
+        width: 150px;
+        margin-left: -10px;
+    }
+  
+    .navbar-toggler-icon{
+        width: 16px;
+    }
+}
+
+/* CSS for home page */
+
+.aboutcontainer{
+    margin-top: 10px;
+    background-color:#F7F8FA;
+}
+.female{
+    margin-top: 60px;
+ }
+.fem{
+    text-align: center;
+    margin-top: 20px;
+}
+.fem img{
+    border-radius: 50%;
+    width: 170px;
+    height:170px;    
+}
+
+.name{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 30px;
+    color: rgb(252, 229, 252);
+}
+.para p{
+    font-size: 18px;
+    margin-top: 30px;
+    font-family: 'Kalam', cursive;
+    color: rgb(252, 229, 252);
+}
+.para{
+    text-align: center;
+    margin-bottom: 60px;
+   
+}
+.aboutcontainer{
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-image: url(images/banner3.jpg);
+    margin-top: -10px;
+    
+    
+}
+.opacity{
+    background: rgba(238, 68, 105, 0.3);
+    
+}
+.container{
+    width: 100%;
+}
+.card{
+    margin-top: 100px;
+    background: rgb(238, 130, 238, 0.1);
+   margin-right: auto;
+   margin-left: auto;
+    float: none;
+    margin-bottom: 50px;
+    box-shadow:3px 3px 30px 3px rgba(247, 96, 96, 0.5);
+    transition: 0.6s;
+   
+}
+.card:hover{
+    transform: scale(1.1);
+    background: #ffffff;
+    z-index: 2;
+}
+
+.category{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgb(255, 122, 204);
+}
+.card h1{
+    font-family: 'Dancing Script', cursive;
+    color: rgb(248, 47, 81);
+    font-size: 40px;
+    font-weight: 800;
+}
+.card-text{
+    font-size: 16px;
+    margin-top: 30px;
+    font-family: 'Kalam', cursive;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.featurecontainer{
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(images/banner5.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:auto;
+    margin-top: 70px;
+    max-width: 100%;
+    
+}
+.imgul{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+.imgul #imgli {
+   text-align: center;
+    margin-top: 35px;
+    list-style-type: none;
+    display: inline-block;
+    
+}
+#imgli img{
+    width: 120px;
+    height: 120px;
+   margin-right: 28px;
+   opacity: 88%;
+   border: rgb(248, 47, 81,0.8) solid;
+   border-radius: 50%;
+
+}
+.cardbox{
+    text-align: center;
+}
+.feature{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 30px;
+    color: rgb(255, 174, 224);
+}
+.heading{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 100px;
+    color: rgb(253, 115, 145);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+ /* CSS for portfolio page */
+
+
+ .portfoliobanner{
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-image: url(images/banner7.png);
+    height:500px;
+}
+.port h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 80px;
+    color: white;
+    margin-left: 20px;
+    margin-top: 200px;
+    font-weight: 900;
+    opacity: 9.0;
+    animation: fadeIn ease 12s;
+-webkit-animation: fadeIn ease 13s;
+
+}
+
+@keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+    
+
+.get a{
+    margin-top: 30px;
+    margin-left: 10px;
+   color: white;
+   height: 32px;
+   width: 100px;border: rgb(248, 16, 47) 2px solid;
+   font-size: 13px;
+    
+}
+.get2{
+    margin-bottom: 70px;
+ }
+ .get2 button{
+     margin-top: 50px;
+    
+     color: rgb(248, 16, 47);
+    height: 32px;
+    width: 100px;border: rgb(248, 16, 47) 2px solid;
+    border-radius: 5%;
+    font-size: 13px;
+     
+ }
+.heading{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+    color: rgb(253, 115, 145);
+}
+.row {
+    display: -ms-flexbox; 
+    display: flex;
+    -ms-flex-wrap: wrap; 
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+ 
+  .column {
+    -ms-flex: 25%;
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+.imagescontainer{
+    box-sizing: border-box;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.quotecontainer{
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(images/banner5.jpg);
+    height:auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+   
+    margin-top: 70px;
+    
+}
+.quote{
+    font-family: 'Kalam', cursive;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 80px;
+    color: white;
+   font-weight: 700;
+   margin-bottom: 70px;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+/* CSS for testimonial page */
+.testcontainer{
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(images/banner10.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:500px;
+}
+@media only screen and (max-width: 480px){
+    .testcontainer,.portfoliobanner{
+        width: 100%;
+        height: 300px;
+        background-size: cover;
+    }
+    .testcontainer .port h1{
+        font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    color: white;
+    margin-left: 20px;
+    margin-top: 100px;
+    font-weight: 900;
+  }
+  .get a{
+    margin-top: 80px;
+    margin-left: 10px;
+   color: white;
+   height: 28px;
+   width: 90px;
+   border: rgb(248, 16, 47) 2px solid;
+   font-size: 13px;
+    
+}
+
+
+}
+
+.testimonial{
+    margin: 0 15px;
+}
+
+.testimonial .pic{
+    width: 24%;
+    float: left;
+    margin-right: 15px;
+    position: relative;
+}
+.testimonial .pic:after{
+    content: "";
+    display: block;
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    border: 1px solid #fff;
+}
+.testimonial .pic img{
+    width: 100%;
+    height: auto;
+}
+.testimonial .testimonial-content{
+    padding: 6% 0;
+    display: table;
+}
+.testimonial .description{
+    
+        font-size: 18px;
+        color: #ffffff;
+        margin-left: 10px;
+        line-height: 27px;
+        margin-top: 30px;
+        font-family: 'Kalam', cursive;
+        
+}
+
+.testimonial .testimonial-title{
+    font-size: 22px;
+    font-weight:800;
+    color: #22272c;
+    text-transform: capitalize;
+   margin-top: 30px;
+}
+.testimonial .post{
+    font-size: 16px;
+    color: #fff;
+    display: block;
+    margin-top: 10px;
+}
+
+
+@media only screen and (max-width: 480px){
+    .testimonial{
+        margin: 0 10px;
+        
+    }
+    .testimonial .pic{
+        float: none;
+        width: 50%;
+        margin: 0 auto;
+    }
+    
+}
+.picturequote{
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(images2/3.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:auto;
+    margin-top: 70px;
+    
+}
+.quote2{
+    font-family: 'Kalam', cursive;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 120px;
+    color: white;
+   font-weight: 700;
+   margin-left: 20px;
+   margin-right: 20px;
+   margin-bottom: 140px;
+} 
+.testi{
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(images/banner5.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    width: auto;
+    height:auto;
+   
+}
+.heading1, .heading2{
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+    margin-top: 100px;
+    color: rgb(241, 8, 58);
+    font: 600;
+}
+.picturequote2{
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(images2/30.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:auto;
+    margin-top: 70px;
+    
+}
+.quote2{
+    font-family: 'Kalam', cursive;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 120px;
+    color: white;
+   font-weight: 700;
+   margin-left: 20px;
+   margin-right: 20px;
+   margin-bottom: 140px;
+} 
+
+/* CSS for pricing page */
+.pricingbanner{
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(images/banner9.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:500px;
+    
+}
+@media only screen and (max-width: 480px){
+    .pricingbanner{
+        width: 100%;
+        height: 400px;
+        background-size: cover;
+    }
+    .port h1{
+        font-family: 'Dancing Script', cursive;
+    font-size: 65px;
+    color: white;
+    margin-left: 20px;
+    margin-top: 100px;
+    font-weight: 900;
+  }
+  .get a{
+    margin-top: 80px;
+    margin-left: 10px;
+   color: white;
+   height: 28px;
+   width: 90px;
+   border: rgb(248, 16, 47) 2px solid;
+   font-size: 13px;
+    
+}
+.get{
+   margin-top: -40px;
+}
+}
+.heading3{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 100px;
+    color: rgb(253, 115, 145);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.heading3 font{
+    font-size: 40px ;
+    font-weight: 600;
+}
+@media only screen and (max-width:480px)
+{
+    .heading3 font{
+       
+        font-size: 33px ;
+        font-weight:600;
+    }
+}
+.demo{
+    margin-top: 50px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(images/banner5.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:auto;
+     background-color: #e7e7e7;
+     }
+.table{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    margin-bottom: 60px;
+   
+}
+.pricingTable{
+    background-color: #fff;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    padding: 0 0 30px;
+    border: 1px solid rgb(250, 45, 62);
+    border-radius: 20px 20px 0 0;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    position: relative;
+    transition: all 0.3s;
+   
+
+}
+.pricingTable:after{
+    content: "";
+    background: linear-gradient(to left,#0097e6,#0652DD);
+    height: 20px;
+    margin: 0 auto;
+    border-radius: 0 0 15px 15px;
+    position: absolute;
+    right: 0;
+    bottom: -20px;
+    left: 0;
+}
+.pricingTable .pricingTable-header{
+    margin: 0 0 25px;
+    position: relative;
+    z-index: 1;
+}
+.pricingTable .pricingTable-header:before,
+.pricingTable .pricingTable-header:after{
+    content: "";
+    background: #fff;
+    width: 47%;
+    height: 29px;
+    border-radius: 0 20px 20px 0;
+    position: absolute;
+    bottom: -29px;
+    left: 0;
+}
+.pricingTable .pricingTable-header:after{
+    border-radius: 20px 0 0 20px;
+    left: auto;
+    right: 0;
+}
+.pricingTable .title{
+    color: #fff;
+    font-family: 'Satisfy', cursive;
+    font-size: 32px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    width: 80%;
+    padding: 16px 12px;
+    margin: -25px auto 0;
+    border-radius: 50px;
+    position: relative;
+}
+.pricingTable .title:before{
+    content: "";
+    background: linear-gradient(to left,#0097e6,#0652DD);
+    width: 55px;
+    height: 38px;
+    transform: translateX(-50%);
+    position: absolute;
+    bottom: -28px;
+    left: 50%;
+    z-index: -1;
+}
+.pricingTable .price-value{
+    color:white;
+    background: linear-gradient(to left,#0097e6,#0652DD);
+    
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    position: relative;
+    
+}
+.pricingTable .price-value:before{
+    content: "";
+    background: #fff;
+    width: 105px;
+    height: 105px;
+    border-radius: 50px;
+    position: absolute;
+    top: 13px;
+    left: 13px;
+    z-index: -1;
+}
+.pricingTable .currency{
+    font-size: 40px;
+    vertical-align: top;
+    font-family: 'Merriweather', serif;
+    margin: -10px 0 0;
+    display: inline-block;
+}
+.pricingTable .amount{
+    font-size: 50px;
+    font-family: 'Merriweather', serif;
+    font-weight: 800;
+    display: inline-block;
+}
+.pricingTable .pricing-content{
+    padding: 0 15px;
+    margin: 0 0 30px;
+    list-style: none;
+    font-family: 'Merriweather', serif;;
+    font-weight: 900;
+}
+.pricingTable .pricing-content li{
+    color: #333;
+    font-size: 17px;
+    text-align: left;
+    line-height: 40px;
+    text-transform: uppercase;
+    padding:0 0 0 35px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.pricingTable .pricing-content li:last-child{ margin: 0; }
+.pricingTable .pricing-content li:before,
+.pricingTable .pricing-content li:after{
+    content: "";
+    background: linear-gradient(to left,#0097e6,#0652DD);
+    width: 25px;
+    height: 12px;
+    border-radius: 20px;
+    position: absolute;
+    top: 15px;
+    left: 0;
+}
+.pricingTable .pricing-content li:after{
+    background: #fff;
+    width: 7px;
+    height: 7px;
+    top: 17px;
+    left: 4px;
+}
+.pricingTable .pricingTable-signup a{
+    color: #fff;
+    background: #fd2856;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 12px 25px;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+}
+.pricingTable .pricingTable-signup a:hover{
+   
+    box-shadow: 0 0 5px rgba(0,0,0,0.8);
+}
+.pricingTable.yellow:after,
+.pricingTable.yellow .title,
+.pricingTable.yellow .title:before,
+.pricingTable.yellow .price-value,
+.pricingTable.yellow .pricing-content li:before,
+.pricingTable.yellow .pricingTable-signup a:hover{
+    background: linear-gradient(to left,#f13961,#fd7391);
+}
+.amount{
+    font-size: 50px;
+}
+@media only screen and (max-width: 990px){
+    .pricingTable{ margin: 25px 0 80px; }
+}
+@media screen and (max-width:767px) {
+    .pricingTable .pricingTable-header:before,
+    .pricingTable .pricingTable-header:after{
+        width: 48.6%;
+    }
+    .pricingTable .pricing-content{
+        display: inline-block;
+        text-align: center;
+    }
+}
+@media screen and (max-width:480px) {
+    .pricingTable .pricingTable-header:before,
+    .pricingTable .pricingTable-header:after{
+        width: 50%;
+    }
+    .pricingTable .pricing-content li{
+        color: #333;
+        font-size: 14px;
+        text-align: left;
+        line-height: 26px;
+        text-transform: uppercase;
+        padding:8px 0 0 35px;
+        margin-bottom: 7px;
+        position: relative;
+    }
+    .pricingTable .pricing-content{
+       
+        padding: 0 5px;
+        margin: 0 0 20px;
+        list-style: none;
+        font-family: 'Merriweather', serif;
+        font-weight: 900;
+    }
+    .pricingTable .currency{
+        font-size: 30;
+        vertical-align: top;
+        margin: -10px 0 0;
+        font-family: 'Merriweather', serif;
+        display: inline-block;
+    }
+    .pricingTable .amount{
+        font-size: 40px;
+        font-weight: 800;
+        font-family: 'Merriweather', serif;
+        display: inline-block;
+    }
+    .pricingTable .title{
+        color: #fff;
+        font-family: 'Satisfy', cursive;
+        font-size: 25px;
+        font-weight: 800;
+        letter-spacing: 2px;
+        width: 80%;
+        padding: 16px 12px;
+        margin: -25px auto 0;
+        border-radius: 50px;
+        position: relative;
+    }
+    .pricingTable .price-value{
+        color:white;
+        background: linear-gradient(to left,#0097e6,#0652DD);
+        
+        width: 130px;
+        height: 130px;
+        margin: 0 auto 20px;
+        border-radius: 50%;
+        position: relative;
+        
+    }
+    .pricingTable .pricingTable-signup a{
+        color: #fff;
+        background: #fd2856;
+        font-size: 16px;
+        font-weight: 600;
+        text-transform: uppercase;
+        padding: 12px 25px;
+        border-radius: 50px;
+        transition: all 0.3s ease 0s;
+    }
+    
+}
+
+.quote3{
+    font-family: 'Kalam', cursive;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 100px;
+    color: white;
+   font-weight: 700;
+   margin-left: 20px;
+   margin-right: 20px;
+   margin-bottom: 120px;
+} 
+.picturequote3{
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(images2/29.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:auto;
+    margin-top: 70px;
+    
+}
+.picturequote4{
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(images3/29.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:auto;
+    margin-top: 70px;
+    
+}
+/* CSS for contact page */
+.content-header{
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 100px;
+    color: rgb(241, 8, 58);
+    font: 600;
+  }
+ 
+  .section-content{
+    text-align: center; 
+  }
+  #contactme{
+    font-family: 'Kalam', cursive; 
+    font-weight: 800;
+    padding-top: 140px;
+    width: 100%;
+    padding-bottom: 100px;
+    height: auto;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    background-image: url(images/banner11.jpg);
+    height:1100px;
+      color : #fff;    
+  }
+  
+
+  .contact-section{
+    padding-top: 40px;
+    
+  }
+  
+  .section-content p{
+       text-transform: capitalize;
+       font-weight: 900;
+       font-size: 18px;
+       margin-left: 20px;
+       margin-right: 20px;
+  }
+  .contact-section .col-md-6{
+    width: 50%;
+  }
+  
+  
+  
+  .form-group{
+    margin-top: 10px;
+    color:  rgb(255, 249, 250);
+    font-weight: bolder;
+  }
+  select{
+      width: 300px;
+      height: 30px;
+      background-color: rgb(255, 255, 255);
+      color: rgba(0,0,0,0.8);
+      font-size: 16px;
+  }
+  #cat option{
+      color: rgba(0,0,0,0.8);
+      font-size: 20px;
+  }
+  label{
+    font-size: 1.7em;
+    line-height: 1.5em;
+    font-weight: 500;
+  }
+  .form-control{
+    font-size: 1.3em;
+    color: #080808;
+    width: 300px;
+  }
+  textarea.form-control {
+      height: 135px;
+      width: 300px;
+     /* margin-top: px;*/
+  }
+  
+  .submit{
+    font-size:2em;
+    float:right;
+    width: 140px;
+    color: #fff;
+    text-align: center;
+   
+  }
+  @media only screen and (max-width: 480px){
+    .form-control{
+        font-size: 1.3em;
+        color: #080808;
+        width: 230px;
+    }
+    textarea.form-control {
+        height: 135px;
+        width: 230px;
+    }
+    .submit{
+        font-size:14px;
+        float:right;
+        width: 100px;
+        color: #fff;
+        text-align: center;
+       
+      }
+      select{
+        width: 230px;
+        height: 30px;
+        background-color: rgb(255, 255, 255);
+        color: rgba(0,0,0,0.8);
+        font-size: 16px;
+    }
+    #contactme{
+        font-size: 8px;
+    }
+    .section-content p{
+        font-size: 16px;
+    }
+   
+
+  }
+
+  /* CSS for about me page */
+  
+  .aboutbanner{
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-image: url(images/photographer.png);
+    height:500px;
+}
+
+  
+ 
+.aboutsection{
+    margin: 60px auto;
+   text-align: center;
+    padding: 8px;
+    align-content: center;
+    width: 65%;
+    
+}
+.aboutsection img{
+    border: rgb(255, 105, 138) solid;
+    border-radius: 3%;
+}
+#aboutimage{
+    float: left;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  margin-right: 20px;
+  margin-bottom: 6px;
+  
+    
+
+}
+
+.text{
+    text-align: justify;
+    font-size: 16px;
+    font-weight: lighter;
+    font-family: 'Merriweather', serif;
+    color: rgb(90, 90, 90);
+    line-height: 30px;
+    width: 100%;
+    height: auto;
+    word-wrap: break-word;
+    
+}
+
+.quote4{
+    font-family: 'Kalam', cursive;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 140px;
+    color: white;
+   font-weight: 700;
+   margin-left: 10px;
+   margin-right: 10px;
+   
+}
+.picturequote5{
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    width: 100;
+    background-image: url(images/picturequote.jpg);
+    height:350px;
+}
+.picturequote6{
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    width: 100;
+    background-image: url(images/fav9.jpg);
+    height:350px;
+}
+.reviews{
+    margin-bottom: 70px;
+ }
+ .reviews button{
+     margin-top: 50px;
+    
+    
+    height: 32px;
+    width: 100px;
+    border-radius: 5%;
+    font-size: 13px;
+     
+ }
+@media only screen and (max-width: 480px)
+{
+.aboutbanner{
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    width: 100;
+    background-image: url(images/photographer.png);
+    height:350px;
+       
+}
+.aboutsection{
+    margin: 40px auto;
+   text-align: center;
+    padding: 8px;
+    align-content: center;
+    width: 90%;
+    
+}
+
+.text{
+    background-color: rgb(255, 110, 154, 0.1);
+    font-size: 12px;
+    line-height: 28px;
+    width: 100%;
+    font-family: 'Merriweather', serif;
+    word-wrap: break-word;
+    }
+}
+  
+ 
+  
+ .footer {
+    background: linear-gradient(-45deg, #ee7752, #f05490, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    height:auto;
+    
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.info p{
+    font-family: 'Balsamiq Sans', cursive;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    padding-top: -2px;
+    
+   
+}
+#address{
+    font-family: 'Balsamiq Sans', cursive;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    padding-top: 10px;
+   
+    line-height: 18px;
+}
+
+.fa-phone , .fa-envelope{
+    color: #f73a69 ;
+    font-size: 12px;
+}
+#useful{
+    font-family: 'Dancing Script', cursive;
+    padding-top: 30px;
+    color: rgb(255, 15, 67);
+    font-size: 45px;
+   
+    
+    
+}
+#contact h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+  
+    color: rgb(255, 15, 67);
+}
+
+.connectli {
+    list-style: none;
+    display: inline-block;
+    margin-left: -50px;
+    color: white;
+    padding:20px 50px;
+    border:1 px solid #fff;
+   border-radius: 50%;  
+   transition: 0.5s; 
+}
+.fa-instagram, .fa-facebook, .fa-pinterest-p{
+   font-size: 30px;
+   color: white!important;
+   
+}
+.connectli a:hover i{
+    color: rgb(255, 15, 67)!important;
+}
+.copyright{
+    margin-top: 10px;
+   
+}
+.copyright p{
+    font-family: 'Balsamiq Sans', cursive;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+   
+   
+}
+::-webkit-scrollbar {
+    width: 15px;
+    height: 15px;
+    }
+    ::-webkit-scrollbar-track-piece  {
+    background-color: rgb(252, 161, 217);
+    }
+    ::-webkit-scrollbar-thumb:vertical {
+    height: 30px;
+    background-color: rgb(238, 2, 73);
+    }
+    @media only screen and (max-width:480px){
+        .heading{
+            font-size: 45px;
+        }
+        .heading1, .heading2, .heading3{
+            font-size: 37px;
+            margin-right: 6px;
+            margin-left: 6px;
+
+        }
+        .quote, .quote2, .quote3, .quote4{
+            font-size: 37px;
+            margin-right: 8px;
+            margin-left: 6px;
+        }
+        #useful{
+            font-family: 'Dancing Script', cursive;
+            padding-top: 26px;
+            color: rgb(255, 15, 67);
+        }
+        .fa-instagram, .fa-facebook, .fa-pinterest-p{
+            font-size: 24px;
+            color: white!important;
+            
+         }
+         .copyright p{
+             margin-top: 20px;
+            font-family: 'Balsamiq Sans', cursive;
+            color: rgb(255, 255, 255);
+            font-size: 13px;
+            margin-left: auto;
+            margin-right: auto;
+           
+           
+        }
+    }
