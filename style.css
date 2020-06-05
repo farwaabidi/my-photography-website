@@ -19,7 +19,7 @@ body{
 .navbar-toggler{
    
     color: white!important;
-    border: rgb(252, 221, 221) solid!important;
+    border: rgb(252, 199, 225) solid!important;
     border-radius: 20%;
 }
 .navbar-toggler-icon{
@@ -33,40 +33,62 @@ body{
     background-color: transparent !important;
 }
 .bg-dark.scrolled{
-    background: rgba(240, 20, 57, 0.3) !important;
+    background: rgba(240, 20, 57, 0.4) !important;
 }
 .navbar-nav >li:hover >a{ 
-    color: rgb(255, 61, 110) !important;
+    color: rgb(255, 15, 67) !important;
 }
 .dropdown-menu{
-    background: rgb(198, 23, 214,0.1) !important;
+    background: rgba(240, 20, 57, 0.2) !important;
 }
 .dropdown-menu:hover{
-    background: rgb(198, 23, 214,0) !important;
+    background: rgba(240, 20, 57, 0.1) !important;
     
 }
 .dropdown-item:hover{
-    color: rgb(255, 61, 110) !important;
+    color: rgb(255, 15, 67) !important;
     background-color: rgb(198, 23, 214,0) !important;
 }
 .navbar-brand img{
-    height: 40px;
+    height: 60px;
     margin-top: -7px;
-    width: 180px;
+    width: 220px;
     
-    margin-left: 5px;
+    
+   
 }
 @media only screen and (max-width: 480px){
     .navbar-brand img{
         height: 40px;
-        margin-top: 5px;
-        width: 150px;
-        margin-left: -10px;
+        margin-top: 0px;
+        width: 170px;
+        margin-left: -30px;
     }
   
     .navbar-toggler-icon{
         width: 16px;
     }
+    .bg-dark{
+        background: rgba(240, 20, 57,0.6) !important;
+    }
+    .bg-dark.scrolled{
+        background: rgba(240, 20, 57, 0.5) !important;
+    }
+    .navbar-nav >li:hover >a{ 
+        color: rgb(255, 170, 206) !important;
+    }
+    .dropdown-menu{
+        background: rgba(240, 20, 57, 0.2) !important;
+    }
+    .dropdown-menu:hover{
+        background: rgba(240, 20, 57, 0.1) !important;
+        
+    }
+    .dropdown-item:hover{
+        color: rgb(255, 151, 212)!important;
+        background-color: rgb(198, 23, 214,0) !important;
+    }
+
 }
 
 /* CSS for home page */
@@ -118,7 +140,7 @@ body{
     
 }
 .opacity{
-    background: rgba(238, 68, 105, 0.3);
+    background: rgba(238, 98, 163, 0.3);
     
 }
 .container{
@@ -131,7 +153,7 @@ body{
    margin-left: auto;
     float: none;
     margin-bottom: 50px;
-    box-shadow:3px 3px 30px 3px rgba(247, 96, 96, 0.5);
+    box-shadow:3px 3px 30px 3px rgba(255, 122, 195, 0.685);
     transition: 0.6s;
    
 }
@@ -148,11 +170,11 @@ body{
     margin-top: 30px;
     margin-left: 10px;
     margin-right: 10px;
-    color: rgb(255, 122, 204);
+    color: rgb(255, 122, 195);
 }
 .card h1{
     font-family: 'Dancing Script', cursive;
-    color: rgb(248, 47, 81);
+    color: rgb(253, 62, 94);
     font-size: 40px;
     font-weight: 800;
 }
@@ -205,14 +227,14 @@ body{
     text-align: center;
     font-size: 50px;
     margin-top: 30px;
-    color: rgb(255, 174, 224);
+    color: rgb(255, 184, 228);
 }
 .heading{
     font-family: 'Dancing Script', cursive;
     text-align: center;
     font-size: 50px;
     margin-top: 100px;
-    color: rgb(253, 115, 145);
+    color: rgb(255, 122, 195);
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -295,7 +317,7 @@ body{
     text-align: center;
     font-size: 50px;
     margin-top: 50px;
-    color: rgb(253, 115, 145);
+    color: rgb(255, 122, 195);
 }
 .row {
     display: -ms-flexbox; 
@@ -384,7 +406,7 @@ body{
         font-family: 'Dancing Script', cursive;
     font-size: 50px;
     color: white;
-    margin-left: 20px;
+   
     margin-top: 100px;
     font-weight: 900;
   }
@@ -506,7 +528,7 @@ body{
     font-size: 40px;
     margin-bottom: 40px;
     margin-top: 100px;
-    color: rgb(241, 8, 58);
+    color: rgb(247, 17, 67);
     font: 600;
 }
 .picturequote2{
@@ -576,7 +598,7 @@ body{
     text-align: center;
     font-size: 50px;
     margin-top: 100px;
-    color: rgb(253, 115, 145);
+    color: rgb(255, 122, 195);
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -1131,7 +1153,7 @@ body{
 }
 
 .text{
-    background-color: rgb(255, 110, 154, 0.1);
+    background-color: rgba(255, 142, 176, 0.1);
     font-size: 12px;
     line-height: 28px;
     width: 100%;
@@ -1185,7 +1207,7 @@ body{
 #useful{
     font-family: 'Dancing Script', cursive;
     padding-top: 30px;
-    color: rgb(255, 15, 67);
+    color: rgb(255, 30, 79);
     font-size: 45px;
    
     
@@ -1214,7 +1236,7 @@ body{
    
 }
 .connectli a:hover i{
-    color: rgb(255, 15, 67)!important;
+    color: rgb(255, 31, 80)!important;
 }
 .copyright{
     margin-top: 10px;
@@ -1241,19 +1263,22 @@ body{
     background-color: rgb(238, 2, 73);
     }
     @media only screen and (max-width:480px){
+        .port h1{
+            margin-left: 3px;
+        }
         .heading{
             font-size: 45px;
         }
         .heading1, .heading2, .heading3{
-            font-size: 37px;
-            margin-right: 6px;
-            margin-left: 6px;
+            font-size: 36px;
+            margin-right: 8px;
+            margin-left: 8px;
 
         }
         .quote, .quote2, .quote3, .quote4{
-            font-size: 37px;
-            margin-right: 8px;
-            margin-left: 6px;
+            font-size: 34px;
+            margin-right: 10px;
+            margin-left: 10px;
         }
         #useful{
             font-family: 'Dancing Script', cursive;
